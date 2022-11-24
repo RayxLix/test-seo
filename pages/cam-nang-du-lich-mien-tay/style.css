@@ -1,0 +1,19 @@
+.topic-wraper{
+
+}
+.topic-item{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0 20px;
+  
+}
+.topic-content > a{
+  display: inline;
+  margin-bottom: 12px;
+  color: #FA8072;
+  padding: 12px;
+
+}
+.topic-content > a:hover{
+  color: blue;
+}

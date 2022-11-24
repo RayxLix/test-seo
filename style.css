@@ -1,0 +1,27 @@
+@media (max-width:740px){
+  .box-content::first-letter{
+    margin-left: 20px;
+  }
+  .box-content, .question-list{
+    padding: 0 32px;
+  }
+  .layout-box{
+    grid-template-columns: 1fr 1fr;
+  }
+  .combo-wraper, .contract-list{
+    display: block;
+  }
+  .combo-item,.other-service-item{
+    margin-bottom: 20px;
+  }
+  .other-service-list{
+    display: block;
+    padding:0 32px;
+  }
+  .other-service-item-content>h3{
+    text-align: center;
+  }
+  .contact-list{
+    grid-template-columns: 1fr ;
+  }
+}
